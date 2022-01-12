@@ -32,6 +32,6 @@ Replace this with your ChromeDriver path.:
 ```python
 CHROMEDRIVER_PATH = 'E:\\Python\\SPPP Selenium\\chromedriver.exe'
 ```
-Make sure the ChromeDriver path is correct including the folder name.
+Make sure the ChromeDriver path is correct including the folder name. If you download this repository in zip, your folder might be something like `SPPP-Selenium-main`. So make sure you keep note of that.
 
 Now you can run the code. Enjoyy!!!
