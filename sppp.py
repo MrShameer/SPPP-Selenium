@@ -13,7 +13,7 @@ MATRIC = 'A123456'
 PASSWORD = 'password123'
 
 ### SET THE PATH TO YOUR CHROMEDRIVER. USE YOUR OWN PATH.
-CHROMEDRIVER_PATH = 'E:\\Python\\Sppp Selenium\\chromedriver.exe'
+CHROMEDRIVER_PATH = 'E:\\Python\\SPPP-Selenium\\chromedriver.exe'
 
 driver = webdriver.Chrome(CHROMEDRIVER_PATH)
 driver.get('https://appsmu.ukm.my/sppp/penilaiankursus')
@@ -29,7 +29,7 @@ try:
 
 
 	### IF YOU HAVE A SLOW LINE INCREASE THE VALUE OF 2. 
-	time.sleep(2) # I should have used webdriver wait function but nvm...
+	time.sleep(4) # I should have used webdriver wait function but nvm...
 	urls = []
 
 	links = driver.find_elements_by_class_name("dropdown-item")
@@ -61,5 +61,6 @@ try:
 
 except Exception as e:
 	print(e)
+	driver.quit()
 
 driver.quit()
