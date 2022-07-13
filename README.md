@@ -7,7 +7,10 @@ A selenium automation program to answer all "Penilaian Kursus" for UKM Student. 
 # Instalation
 
 These are the packages that you need for this program to run :
-- Selenium
+- Selenium - Version : `3.141.0` or lower than `4`
+```cmd
+pip install selenium==3.141.0
+```
 
 ### !!! Important :
 **You also need to download ChromeDriver version that is similar to you Chrome browser version.**
@@ -15,6 +18,8 @@ These are the packages that you need for this program to run :
 **My Current ChromeDriver Version is `96.0.4664.45`, maybe yours is different. You can download ChromeDriver at [Here](https://chromedriver.chromium.org/downloads).**
 
 **If you download a new ChromeDriver, just replace it with the one in this folder / repository.**
+
+`Check your Chrome Version in the Error Log or in your Chrome`
 
 
 # Set Up
